@@ -7,7 +7,7 @@
     dubbo2.js = Nodejs connected Java Dubbo service by dubbo protocol (dubbo head + hessian body)
 After all these years, dubbo 2 comes finally~ We love dubbo!👏
 
-With core module [js-to-java](https://github.com/node-modules/js-to-java),[hessian.js](https://github.com/node-modules/hessian.js), and [fengmk2](https://github.com/fengmk2)和[dead-horse](https://github.com/dead-horse), dubbo2 is finished. And many thanks to fengmk2 and dead-horse.
+With core module [js-to-java](https://github.com/node-modules/js-to-java), and [hessian.js](https://github.com/node-modules/hessian.js), dubbo2 is finished. And many thanks to [fengmk2](https://github.com/fengmk2)和[dead-horse](https://github.com/dead-horse).
 
 # Features
 -------------------------------

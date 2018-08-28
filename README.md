@@ -164,7 +164,7 @@ With core module js-to-java, and hessian.js, dubbo2 is finished. And many thanks
 
 # dubbo flow graph
 
-![dubbo-flow](https://raw.githubusercontent.com/dubbo/dubbo2.js/master/resources/dubbo2-flow.png)
+![dubbo-flow](https://github.com/chaoshimeng/dubbo/blob/master/image/1234.jpg)
 
 # API
 ----------------------------------

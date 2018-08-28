@@ -171,25 +171,25 @@ With core module [js-to-java](https://github.com/node-modules/js-to-java), and [
 ## create dubbo object
     const dubbo = new Dubbo({
       isSupportedDubbox     //Support dubbox or not: selectable, type:Boolean, false as default
-      application           //Name of the application: selectable, write the consumer type when zookeeper is                               called: {name: string}
+      application           //Name of the application: selectable, write the consumer type when zookeeper is called: {name: string}
       dubboInvokeTimeout    //Dubbo timeout: selectable, 10s as default, type: number
       dubboSocketPool       //Set the size of socket pool: selectable, 4 as default, type: number
       register              //Set zookeeper registration center address: required, type: string
       zkRoot                //Default root path of zk: ‘ /dubbo’ as default, type: string
-      interfaces            //Set the interface identifier for zk montoring: required, type: Array<string>,                               no longer exist in version dubbo2.js@2.0.4+
-      service               //Dubbo service injected in dubbo container: type: Object, used in version                                     dubbo2.js@2.0.4+
+      interfaces            //Set the interface identifier for zk montoring: required, type: Array<string>, no longer exist in version dubbo2.js@2.0.4+
+      service               //Dubbo service injected in dubbo container: type: Object, used in version       dubbo2.js@2.0.4+
     });
     
     // Or( Same as above)
     const dubbo = Dubbo.from({
       isSupportedDubbox     //Support dubbox or not: selectable, type:Boolean, false as default
-      application           //Name of the application: selectable, write the consumer type when zookeeper is                               called: {name: string}
+      application           //Name of the application: selectable, write the consumer type when zookeeper is called: {name: string}
       dubboInvokeTimeout    //Dubbo timeout: selectable, 10s as default, type: number
       dubboSocketPool       //Set the size of socket pool: selectable, 4 as default, type: number
       register              //Set zookeeper registration center address: required, type: string
       zkRoot                //Default root path of zk: ‘ /dubbo’ as default, type: string
-      interfaces            //Set the interface identifier for zk montoring: required, type: Array<string>,                               no longer exist in version dubbo2.js@2.0.4+
-      service               //Dubbo service injected in dubbo container: type: Object, used in version                                     dubbo2.js@2.0.4+
+      interfaces            //Set the interface identifier for zk montoring: required, type: Array<string>, no longer exist in version dubbo2.js@2.0.4+
+      service               //Dubbo service injected in dubbo container: type: Object, used in version   dubbo2.js@2.0.4+
     })
     
     

@@ -177,7 +177,7 @@ With core module [js-to-java](https://github.com/node-modules/js-to-java), and [
       register              //Set zookeeper registration center address: required, type: string
       zkRoot                //Default root path of zk: ‘ /dubbo’ as default, type: string
       interfaces            //Set the interface identifier for zk montoring: required, type: Array<string>, no longer exist in version dubbo2.js@2.0.4+
-      service               //Dubbo service injected in dubbo container: type: Object, used in version       dubbo2.js@2.0.4+
+      service               //Dubbo service injected in dubbo container: type: Object, used in version dubbo2.js@2.0.4+
     });
     
     // Or( Same as above)
@@ -189,7 +189,7 @@ With core module [js-to-java](https://github.com/node-modules/js-to-java), and [
       register              //Set zookeeper registration center address: required, type: string
       zkRoot                //Default root path of zk: ‘ /dubbo’ as default, type: string
       interfaces            //Set the interface identifier for zk montoring: required, type: Array<string>, no longer exist in version dubbo2.js@2.0.4+
-      service               //Dubbo service injected in dubbo container: type: Object, used in version   dubbo2.js@2.0.4+
+      service               //Dubbo service injected in dubbo container: type: Object, used in version dubbo2.js@2.0.4+
     })
     
     
